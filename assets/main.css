@@ -1,0 +1,88 @@
+body {
+  font-family: sans-serif;
+  background-color: #393e46;
+  color: #eee;
+  margin: 20px;
+}
+
+#title {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 1;
+}
+
+#map {
+  padding: 10px !important;
+  height: 100vh;
+}
+
+.dash-debug-menu, .dash-debug-menu__outer {
+  visibility: hidden;
+}
+
+.condition_ul {
+  list-style: none;
+}
+
+.condition_ul > li {
+  margin-bottom: 15px;
+}
+
+g.hovertext > path, g.slicetext > path {
+  fill: #3282b8 !important;
+  stroke: #3282b8 !important;
+  stroke-width: 8px !important;
+  stroke-linejoin: round !important;
+  stroke-linejoin: round !important;
+}
+
+.legend_container {
+  margin-bottom: 17px;
+}
+
+.circle {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  line-height: 15px;
+  text-indent: 20px;
+  word-wrap: normal !important;
+}
+
+.Select-control, .Select-menu-outer, .Select-input, .Select-placeholder, .Select-multi-value-wrapper, .Select-clear-zone, .Select-arrow-zone {
+  background-color: #171717 !important;
+}
+.Select-value-label, .Select-input {
+  color: #eee !important;
+}
+.card {
+  border: none;
+  background: none !important;
+}
+
+.card-body {
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  background-color: #171717;
+  padding: 10px;
+}
+
+.mapboxgl-map, .gl-canvas {
+  background-color: #393e46;
+}
+
+#condition_status {
+  margin-bottom: 14px;
+}
+#condition_status > label {
+  display: block;
+  padding-left: 40px;
+  font-weight: normal;
+}
+#condition_status > label > input {
+  margin-right: 7px;
+}
